@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tourism Website</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+        <link rel="icon" href="logo.jpeg" type="image/jpeg">
+    </head>
+    <body class="landing-page"> 
+
+        <!-- Nav for the header below -->
+        <div class = "headers">
+            <a href="index.html"><img id="logo" src="log2.png" alt="logo"></a>
+            <nav class="navbar">
+                <a href="about_us.html">About Us</a>
+                <a href="destinations.html">Destinations</a>
+                <a href="travelling_p.html" class="dropdown-toggle">Travelling Packages
+                    <img class="dropping" src="dropping.png" alt="dropdown">
+                    </a>
+                    <div class="dropdown">
+                        <a href="regular_id">Regular Package</a>
+                        <a href="premium_id">Premium Package</a>
+                        <a href="special_id">Special Package</a>
+                    </div>
+                <a href="bookings.html"><img id="icon" src ="cart.jpg" alt="Booking_icon" >Bookings</a>
+            </nav>
+        </div>
+            <div class="hover-line"></div> 
+        <div class="floating"></div> <!-- removing the floating for logo-->
+        <h1 class="name">Sign up</h1>
+
+        <!-- sign_up form -->
+        <div class="signup-container">
+            <form id="signupForm" class="signup-form">
+                <div class="form-group">
+                    <input type="text" id="fullName" required>
+                    <label for="fullName">Full Name</label>
+                </div>
+                
+                <div class="form-group">
+                    <input type="email" id="email" required>
+                    <label for="email">Email Address</label>
+                </div>
+
+                <div class="form-group">
+                    <input type="tel" id="phone" required>
+                    <label for="phone">Phone Number</label>
+                </div>
+
+                <div class="form-group">
+                    <input type="password" id="password" required>
+                    <label for="password">Password</label>
+                </div>
+
+                <div class="form-group">
+                    <input type="password" id="confirmPassword" required>
+                    <label for="confirmPassword">Confirm Password</label>
+                </div>
+
+                <button type="submit" class="submit-btn">Start Your Journey</button>
+            </form>
+        </div>
+        <script src="script.js"></script>
+    </body>
+    <footer>
+        <p>&copy; 2024 website. All rights reserved</p>
+        <div class="footer_bars">
+            <a href="terms.html">Terms of Services</a>
+            <a href="connect.html">Contact Us</a>
+            <a href="sign_up.html">Sign up</a>
+        </div>
+
+        <div class="soical-media-icons">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-whatsapp"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </div>
+    </footer>
+</html>

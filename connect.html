@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Akwabeza Tours</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" href="logo.jpeg" type="image/jpeg">
+</head>
+<body class="landing-page"> 
+
+    <!-- Nav for the header below -->
+    <div class="headers">
+        <a href="index.html"><img id="logo" src="log2.png" alt="logo"></a>
+        <nav class="navbar">
+            <a href="about_us.html">About Us</a>
+            <a href="destinations.html">Destinations</a>
+            <a href="travelling_p.html" class="dropdown-toggle">Travelling Packages
+                <img class="dropping" src="dropping.png" alt="dropdown">
+            </a>
+            <div class="dropdown">
+                <a href="regular_id">Regular Package</a>
+                <a href="premium_id">Premium Package</a>
+                <a href="special_id">Special Package</a>
+            </div>
+            <a href="bookings.html"><img id="icon" src="cart.jpg" alt="Booking_icon">Bookings</a>
+        </nav>
+    </div>
+    <div class="hover-line"></div>
+
+    <h1 class="contact-title">Contact Us</h1>
+    <div class="contact-form">
+        <form action="submit_contact_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Akwabeza Tours. All rights reserved.</p>
+        <div class="footer_bars">
+            <a href="terms.html">Terms of Services</a>
+            <a href="connect.html">Contact Us</a>
+            <a href="sign_up.html">Sign up</a>
+        </div>
+        <div class="soical-media-icons">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-whatsapp"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </div>
+    </footer>
+
+</body>
+</html>
